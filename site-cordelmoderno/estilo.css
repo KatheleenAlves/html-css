@@ -66,12 +66,29 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.307);
     color:white;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.547);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.289);
+    background-color: rgba(0, 0, 0, 0.653);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.393);
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section#img001{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+}
+
+section#img002{
+    background-image: url(pacote-d012/imagens/background002.jpg);
 }
 
 footer{
