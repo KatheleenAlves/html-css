@@ -1,5 +1,5 @@
 
-<h1>Katheleen Alves - Junior Developer</h1>
+Katheleen Alves - Junior Developer
 
 <p>Seja bem-vind@ ao meu repositório de HTML e CSS!🤓</p>
 Para acessar é só clicar no site desejado abaixo:<br><br>
