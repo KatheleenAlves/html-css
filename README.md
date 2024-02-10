@@ -2,7 +2,7 @@
 Katheleen Alves - Junior Developer
 
 <p>Seja bem-vind@, ao meu repositório público de HTML e CSS!🤓</p>
-Para acessar algum é só clicar no site desejado abaixo:<br><br>
+Para acessar algum site é só clicar no site desejado abaixo:<br><br>
 
 ✅<a href="https://katheleenalves.github.io/html-css/site-android/android.html" target="blank">Curiosidades de Tecnologia<br>
 
