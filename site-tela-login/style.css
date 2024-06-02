@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+:root {
+    --corDeFundo: rgba(128, 128, 128, 0.134);
+    --padrao: #1b79cc;
+    --fonte: Arial, Helvetica, sans-serif;
+    --cinzaPadrão: rgba(128, 128, 128, 0.466);
+    --transicao: #478ac4;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+main {
+    background-color: var(--corDeFundo);
+    margin: auto;
+    width: 440px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--fonte);
+    border-radius: 8px;
+    box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.142);
+}
+
+div#dfotoUsario {
+    padding-right: 40%;
+}
+
+img#imgUsario {
+    position: absolute;
+    top: -130px;
+}
+
+form{
+    flex-direction: column;
+}
+
+div {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div#dPrincipal {
+    margin-top: 80px;
+}
+
+div#dSecundaria {
+    margin-bottom: 0px;
+}
+
+div.dInputs>label {
+    display: block;
+    color: var(--padrao);
+    font-weight: bolder;
+    font-size: 14pt;
+    text-align: left;
+    padding-left: 38px;
+    padding-bottom: 6px;
+}
+
+
+input.txt {
+    position: relative;
+    padding: 5px;
+    width: 300px;
+    height: 28px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.266);
+    font-family: var(--fonte);
+    font-size: 14px;
+    background-color: white;
+    padding-left: 40px;
+}
+
+i#iUsuario {
+    position: absolute;
+    display: block;
+    left: 60px;
+    top: 150px;
+    height: 18px;
+    color: var(--cinzaPadrão);
+    font-size: 14pt;
+}
+
+i#iSenha {
+    position: absolute;
+    display: block;
+    left: 59px;
+    top: 254px;
+    height: 18px;
+    color: var(--cinzaPadrão);
+    font-size: 14pt;
+}
+
+i#iFotoUser {
+    width: 100px;
+    height: 100px;
+}
+
+div#dCadeSenha {
+    margin-bottom: 30px;
+
+}
+
+a.aCe {
+    text-decoration: none;
+    color: var(--padrao);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a.aCe:hover{
+    color: var(--transicao);
+    font-weight: bolder;
+    text-decoration:underline;
+}
+
+a#aCadastrar {
+    float: left;
+    padding-left: 34px;
+}
+
+a#aEsqueceuSenha {
+    float: right;
+    padding-right: 36px;
+}
+
+button.btn {
+    padding: 8px;
+    width: 120px;
+    margin-right: 14px;
+    border-radius: 10px;
+    font-size: 12pt;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.255);
+    font-weight: bolder;
+    font-family: var(--fonte);
+    background-color: var(--padrao);
+    color: white;
+    border: none;
+}
+
+button.btn:hover{
+    background-color: var(--transicao);
+}
