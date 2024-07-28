@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color: lightblue; */
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, rgb(163, 235, 202), rgb(187, 224, 236));
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section{
+    width: 60vw;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+h1{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.488);
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+div{
+    margin-bottom: 30px;
+}
+
+div.inicio{
+    text-align: center;
+}
+
+img.imagens{
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+    border-radius: 2px;
+    object-position: top;
+}
+
+div#silvio{
+    position: relative;
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+p#historia{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+div.citacao{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.347);
+    background-color: lightgray;
+}
+
+li{
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+p#credito{
+    text-align: left;
+}
+
+p#legenda{
+    font-size: 12.5px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+footer{
+    font-size: 12px;
+    text-align: center;
+}
