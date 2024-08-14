@@ -46,7 +46,7 @@ div.form-container{
     width: 50vw;
     overflow: hidden;
     background-color: white;
-    transform: translate(0, -2.65%);
+    transform: translate(0, -2.68%);
     border-radius: 2px;
 }
 
@@ -65,7 +65,7 @@ div.cabecalho-form header{
 
 p.cadastro{
     color: #673AB7;
-    padding: 14px;
+    padding: 12px;
 }
 
 /* Form container */
@@ -160,7 +160,7 @@ input.btn{
 @media screen and (max-width: 768px) {
     div.form-container{
         width: 90vw;
-        transform: translate(0, -2.58%);
+        transform: translate(0, -2.7%);
 
     }
 
