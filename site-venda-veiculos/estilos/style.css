@@ -54,8 +54,9 @@ div.form-container{
 /* Form para celular */
 @media screen and (max-width: 768px) {
     div.form-container{
-        width: 90vw;
+        width: 95vw;
     }
+
     body{
         overflow-x: hidden;
     }
@@ -63,16 +64,7 @@ div.form-container{
         text-align: justify;
     }
 
-    
-    div.secao-cadastro{
-        padding: 5px;
-    }
-
-    div.secao-cadastro div{
-        margin: 5px;
-    }
-
-    
+      
 }
 
 /* Form header */
@@ -99,8 +91,11 @@ div.secao-cadastro{
     padding: 20px;
 }
 
+/* div.secao-cadastro div{
+    margin: 1vw;
+} */
 div.secao-cadastro div{
-    margin: 30px;
+    margin: 1.5vw 1vw;
 }
 
 /* form Título */
