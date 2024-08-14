@@ -51,22 +51,6 @@ div.form-container{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.279);
 }
 
-/* Form para celular */
-@media screen and (max-width: 768px) {
-    div.form-container{
-        width: 95vw;
-    }
-
-    body{
-        overflow-x: hidden;
-    }
-    div#descricao{
-        text-align: justify;
-    }
-
-      
-}
-
 /* Form header */
 
 div.cabecalho-form{
@@ -170,4 +154,27 @@ input.btn{
     box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.244);
     background-color: #673AB7;
     color: white;
+}
+
+
+/* Form para celular */
+@media screen and (max-width: 768px) {
+    div.form-container{
+        width: 90vw;
+        transform: translate(0, -2.80%);
+
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+      
+    /* form Título */
+    div#titulo{
+        margin-bottom: 20px;
+    }
+
+    div.secao-cadastro div{
+        margin-bottom: 25px;
+    }
 }
