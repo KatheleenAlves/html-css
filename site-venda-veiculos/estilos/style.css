@@ -14,9 +14,12 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     background-color: var(--cor-fundo);
     color: var(--cor-fonte);
 }
+
+
 
 /* Header */
 div.cabecalho{
@@ -46,6 +49,16 @@ div.form-container{
     transform: translate(0, -2.65%);
     border-radius: 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.279);
+}
+
+/* Form para celular */
+@media screen and (max-width: 360px) {
+    div.form-container{
+        width: 90vw;
+    }
+    div.secao-cadastro{
+        padding: 8px;
+    }
 }
 
 /* Form header */
@@ -94,6 +107,7 @@ input.txt{
     border-top: 0px;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+    font-size: 16px;
 }
 
 /* Campos obrigatórios */
