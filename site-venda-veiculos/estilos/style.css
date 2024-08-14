@@ -160,7 +160,7 @@ input.btn{
 @media screen and (max-width: 768px) {
     div.form-container{
         width: 90vw;
-        transform: translate(0, -2.4%);
+        transform: translate(0, -2.58%);
 
     }
 
@@ -175,4 +175,5 @@ input.btn{
 
     div.secao-cadastro div{
         margin-bottom: 25px;
-    }
+    }
+}
