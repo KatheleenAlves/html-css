@@ -59,6 +59,19 @@ div.form-container{
     body{
         overflow-x: hidden;
     }
+    div#descricao{
+        text-align: justify;
+    }
+
+    
+    div.secao-cadastro{
+        padding: 5px;
+    }
+
+    div.secao-cadastro div{
+        margin: 5px;
+    }
+
     
 }
 
