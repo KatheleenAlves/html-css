@@ -54,8 +54,10 @@ div.form-container{
 /* Form para celular */
 @media screen and (max-width: 768px) {
     div.form-container{
-        width: 80vw;
-
+        width: 90vw;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
 
