@@ -48,7 +48,6 @@ div.form-container{
     background-color: white;
     transform: translate(0, -2.65%);
     border-radius: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.279);
 }
 
 /* Form header */
@@ -161,7 +160,7 @@ input.btn{
 @media screen and (max-width: 768px) {
     div.form-container{
         width: 90vw;
-        transform: translate(0, -2.80%);
+        transform: translate(0, -2.4%);
 
     }
 
@@ -176,5 +175,4 @@ input.btn{
 
     div.secao-cadastro div{
         margin-bottom: 25px;
-    }
-}
+    }
