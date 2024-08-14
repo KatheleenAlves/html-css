@@ -15,5 +15,5 @@ Para acessar algum site é só clicar no site desejado abaixo:<br><br>
 <br>
 
 <p>Projetos em desenvolvimento:</p>
-✅<a href="https://katheleenalves.github.io/html-css/site-venda-veiculos/" target="blank">Venda de veículo
+✅<a href="https://katheleenalves.github.io/html-css/site-venda-veiculos/" target="blank">Venda de veículos
 <br>
