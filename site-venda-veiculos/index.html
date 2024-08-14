@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de veículos</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <div class="cabecalho">
+            <header>
+                <h3>Cadastre seu veículo para vender muito mais rápido</h3>
+            </header>
+        </div>
+
+        <!-- Form -->
+        <div class="form-container">
+            <!-- Cabeçalho cadastro -->
+            <div class="cabecalho-form">
+                <header>
+                    <p>Cadastro</p>
+                </header>
+            </div>
+            <!-- Título -->
+            <div id="titulo">
+                <h1>Venda fácil seu veículos</h1>
+            </div>
+            <!-- Descrição -->
+            <div id="descricao">
+                <p>Descreva as características do seu veículo e marque todas os opicionais e características que ele possui</p>
+            </div>
+            <form>
+            <!-- Campo título -->
+                <div class="campos">
+                    <label for="titulo-anuncio">Título do anúncio: <span class="obrigatorio">*</span></label>
+                    <input type="text" id="titulo-anuncio" required>
+                </div>
+            <!-- Campo preço -->
+            <div class="campos">
+                <label for="preco">Preço do veículo: <span class="obrigatorio">*</span></label>
+                <input type="text" id="preco" required>
+            </div>
+            <!-- Campo descrição -->
+            <div class="campos">
+                <label for="descricao">Descrição: <span class="obrigatorio">*</span></label>
+                <textarea id="descricao" rows="10" cols="50"></textarea required>
+            </div>
+            <!-- Campo único dono -->
+            <div class="campos">
+                <label for="dono">Único dono: <span class="obrigatorio">*</span></label>
+                <textarea id="descricao" rows="10" cols="50"></textarea required>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
