@@ -43,7 +43,7 @@ div.cabecalho h3{
 /* Form */
 
 div.form-container{
-    width: 60vw;
+    width: 50vw;
     overflow: hidden;
     background-color: white;
     transform: translate(0, -2.65%);
@@ -52,12 +52,11 @@ div.form-container{
 }
 
 /* Form para celular */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
     div.form-container{
-        width: 90vw;
-    }
-    div.secao-cadastro{
-        padding: 8px;
+        min-width: 400px;
+        max-width: 80vw;
+
     }
 }
 
