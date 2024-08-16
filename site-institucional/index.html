@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site institucional</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <header>
+        <div class="container">
         <!-- Header -->
-        <header>
             <div class="banner">
                 <h1>Agencia X</h1>
                 <p>Desenvolvendo os seus sistemas</p>
@@ -16,9 +18,9 @@
             <div id="descricao-site">
                 <h2>Seja bem-vindo ao nosso site</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis suscipit ligula et imperdiet. Nunc vulputate mattis lacus, eu lobortis ipsum porta sed.</p>
-            </div>
-        </header>
-    </div>
+            </div>      
+         </div>
+    </header>
     <section>
         <div id="conteudos">
             <div class="topico">
@@ -55,5 +57,52 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="final">
+            <div id="contato">
+                <div class="saiba-mais">
+                    <i class="fas fa-server"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis suscipit ligula et imperdiet. Nunc vulputate mattis lacus, eu lobortis ipsum porta sed.
+                    </p>
+                </div>
+                <div class="saiba-mais">
+                    <i class="fas fa-briefcase"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis suscipit ligula et imperdiet. Nunc vulputate mattis lacus, eu lobortis ipsum porta sed.
+                    </p>
+                </div>
+                <div class="saiba-mais">
+                    <i class="fas fa-tablet-alt"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis suscipit ligula et imperdiet. Nunc vulputate mattis lacus, eu lobortis ipsum porta sed.
+                    </p>
+                </div>
+            </div>
+            <section>
+                <div id="contato">
+                    <form>
+                        <div class="campos-contato">
+                            <input type="text" id="nome"  class="inputs" required placeholder="Nome">
+                        </div>
+                        <div class="campos-contato">
+                            <input type="text" id="email" class="inputs" required placeholder="Email">
+                        </div>
+                        <div class="campos-contato">
+                            <textarea id="msg" class="inputs" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <div class="campos-contato">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>Copyright 2019 </p>
+        </div>
+    </footer>
 </body>
 </html>

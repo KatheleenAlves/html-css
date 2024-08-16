@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container{
+    width: 100vw;
+    height: 750px;
+    background-image: url(../imagens/capa2.jpg);
+    background-position: center;
+}
