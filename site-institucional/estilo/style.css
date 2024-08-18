@@ -5,9 +5,218 @@
     padding: 0px;
 }
 
+body{
+    font-family: Helvetica, sans-serif
+}
+
+/* Header */
 div.container{
-    width: 100vw;
-    height: 750px;
+    width: 98.9vw;
+    height: 600px;
     background-image: url(../imagens/capa2.jpg);
     background-position: center;
+    background-repeat: repeat-x;
+    margin-top: 0px;
 }
+
+/* Agência X - Header */
+
+div.banner{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 81%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.455);
+    color: white;
+}
+
+/* Título */
+div.banner-agencia h1{
+    padding-bottom: 20px;
+}
+
+/* Parágrafo */
+div.banner-agencia p{
+    font-size: 20px;
+}
+
+/* Descrição do banner */
+div#descricao-site{
+    width: 100%;
+    height: 30vh;
+    top: 65.5%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddddddce;
+}
+
+div#descricao-site-filho{
+    text-align: left;
+    font-size: 16px;
+    margin-right: 10%;
+}
+
+div#descricao-site-filho h2{
+    padding-bottom: 20px;
+}
+
+div.txt-bem-vindo{
+    width: 40%;
+}
+
+/* conteudos */
+
+div#conteudos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* conteudos  */
+
+div#conteudos-block{
+    width: 80%;
+}
+
+/* Tópicos */
+div.topico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* topicos - quadrados */
+
+div.quadrado-pai{
+    height: 20vh;
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    
+}
+
+div.quadrado-filho{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+div.texto{
+    text-align: left;
+    margin-left: 20px;  
+}
+
+div.texto h3{
+    margin-bottom: 20px; 
+} 
+
+div.texto p{
+    font-size: 14px;
+    color: #222222d8;
+}
+
+/* Gerenciamento de projetos */
+
+div.quadrado-gerenciamento{
+    background-color: #2364AA;
+}
+
+#titulo-gerenciamento{
+    color: #2364AA;
+}
+
+/* Desenvolvimento */
+
+div.quadrado-desenvolvimento{
+    background-color: #3DA5D9;
+}
+
+#titulo-desenvolvimento{
+    color: #3DA5D9;
+}
+
+
+/* Desenvolvimento */
+
+div.quadrado-desenvolvimento{
+    background-color: #3DA5D9;
+}
+
+#titulo-desenvolvimento{
+    color: #3DA5D9;
+}
+
+/* Design UX/UI */
+
+div.quadrado-design{
+    background-color: #75BCB5;
+}
+
+#titulo-design{
+    color: #75BCB5;
+}
+
+/* Contato */
+
+div.final{
+    background-image: url(../imagens/rodape.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+    width: 98.9vw;
+    height: 80vh;
+} 
+
+/* Saiba mais */
+div#contato{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #888;
+}
+
+div.saiba-mais{
+    width: 20%;
+    height: 75%;
+    margin: 30px;
+    padding: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+
+}
+
+div.saiba-mais i{
+    font-size: 50px;
+}
+
+div.saiba-mais p{
+    margin-top: 40px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Formulário de contato */
