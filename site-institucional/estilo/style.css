@@ -181,7 +181,7 @@ div.final{
     background-position: center;
     overflow-x: hidden;
     width: 98.9vw;
-    height: 80vh;
+    height: 100vh;
 } 
 
 /* Saiba mais */
@@ -220,3 +220,11 @@ div.saiba-mais p{
 }
 
 /* Formulário de contato */
+div#formulario{
+    height: 40vh;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 51.4vw;
+    position: relative;
+    background-color: #ffffff7a;
+}
