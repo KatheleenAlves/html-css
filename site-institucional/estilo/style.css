@@ -49,8 +49,8 @@ div.banner-agencia p{
 /* Descrição do banner */
 div#descricao-site{
     width: 100%;
-    height: 30vh;
-    top: 65.5%;
+    height: 24vh;
+    top: 71%;
     text-align: center;
     position: relative;
     display: flex;
@@ -64,7 +64,7 @@ div#descricao-site-filho{
     font-size: 16px;
     margin-right: 10%;
 }
-
+    
 div#descricao-site-filho h2{
     padding-bottom: 20px;
 }
@@ -179,15 +179,17 @@ div.final{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    overflow-y: hidden;
     overflow-x: hidden;
     width: 98.9vw;
-    height: 100vh;
+    height: 110vh;
 } 
 
 /* Saiba mais */
 div#contato{
     width: 100%;
-    height: 50%;
+    height: 30%;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -196,7 +198,7 @@ div#contato{
 
 div.saiba-mais{
     width: 20%;
-    height: 75%;
+    height: 70%;
     margin: 30px;
     padding: 30px;
     padding-top: 20px;
@@ -221,10 +223,58 @@ div.saiba-mais p{
 
 /* Formulário de contato */
 div#formulario{
-    height: 40vh;
-    margin-top: 30px;
+    height: 60vh;
+    margin-top: 10px;
+    padding-top: 30px;
     margin-left: 10%;
     width: 51.4vw;
     position: relative;
     background-color: #ffffff7a;
+}
+
+
+/* Divs dos campos de contato */
+div.campos-contato{
+    padding: 10px 0px 10px 30px;
+}
+
+/* Modificando inputs */
+.inputs{
+    width: 60%;
+    height: 20px;
+    font-size: 14px;
+    border-width: 0px 0px 1px 0px;
+    padding: 8px;
+    background-color: transparent;
+    border-style: solid #aaa;
+}
+
+.area{
+    font-size: 14px;
+    width: 60%;
+    padding: 8px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid #aaa;
+    background-color: transparent;
+}
+
+div.campo-botao{
+    width: 60%;
+ 
+}
+
+input#btn{
+    width: 90px;
+    height: 40px;
+    float: right;
+    background-color: black;
+    color: white;
+}
+
+/* Rodape */
+footer p{
+    font-size: 14px;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
 }
