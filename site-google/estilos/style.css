@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+* Zerando */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.lnr-list {
+    font-size: 24px; /* Tamanho do ícone */
+    color: #333; /* Cor do ícone */
+  }
