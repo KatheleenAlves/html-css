@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxmuximum-scale=1.0, user-scalable=no">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <!--Informações de endereço-->
+        <div id="address-container">
+            <div class="fade"> </div>
+            <div id="address-content">
+                <h2><ion-icon name="navigate"></ion-icon>Endereço</h2>
+                <p>Rua dos Bobos, nº 0</p>
+
+                <h2><ion-icon name="call"></ion-icon>Telefone</h2>
+                <p>(41)9292-9393</p>
+
+                <h2><ion-icon name="mail"></ion-icon>E-mail</h2>
+                <p>meuemail@hotmail.com</p>
+            </div>
+        </div>
+
+        <!--Formulário-->
+        <div id="form-container">
+            <form id="contact-form">
+                <!--Campo de nome-->
+                <label for="name">Nome:</label>
+                <input type="text" name="name" placeholder="Digite seu nome" required>
+                <!--Campo de email-->
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>                
+                <!--Campo de telefone-->
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="phone" placeholder="Digite seu telefone" required>       
+                <!--Campo de sua mensagem-->
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="msg" placeholder="Como podemos te ajudar?"></textarea>
+                <!--Botão de enviar-->
+                <input type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> <!--Referenciando os ícones-->
+</body>
+</html>
